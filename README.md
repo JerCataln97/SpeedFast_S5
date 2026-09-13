@@ -12,7 +12,7 @@ Carrera: Analista Programador Computacional
 
 Este proyecto corresponde a la actividad sumativa 2 de la asignatura Desarrollo Orientado a Objetos II.
 
-El proyecto fue creado para simular la entrega de pedidos de la empresa SpeedFast. En este se utilizo programación concurrente mediante Thread y Runnable, se utilizo enum, además sincronización para 
+El proyecto fue creado para simular la entrega de pedidos de la empresa SpeedFast. En este se utilizo programación concurrente mediante Thread y Runnable, se aplico el uso enum, además sincronización para gestionar las entregas de manera segura.
 
 🧱 Estructura general del proyecto
 
@@ -20,9 +20,7 @@ El proyecto fue creado para simular la entrega de pedidos de la empresa SpeedFas
 
 ├── app/ # Clase principal con el método Main
 
-├── interfaces/ # Interfaces (Cancelable, Despachable, Rastreable)
-
-└── model/ # Superclase y Subclases (Pedido, PedidoComida, PedidoEncomienda, PedidoExpress)
+└── model/ # Contiene las clases y Enum (Pedido, Repartidor, ZonaDeCarga, EstadoPedido)
 
 ⚙️ Instrucciones para clonar y ejecutar el proyecto
 
